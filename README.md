@@ -17,11 +17,11 @@ Azimuthal statistics are computed using radial_data.py (taken from https://www.l
 
 TC_Polar_Coordinates-zlevs.ipynb and TC_Polar_Coordinates-plevs.ipynb modifications:
 
-*define wrf_control for the location of the pressure-/z-level output from the NCL scripts.
-*t_slice = the time-snapshot you wish to plot
-*num_levs = the number of pressure-/z-levels defined above
-*center = the exact center of your vortex-following domain.  Our domain in this example was 150,150 putting the center at 75,75
-*npix = the width or length of the domain (square domains work best).  Somehow this results in 107 radials, which is input in the reshape function.
-*km_rad = rad_stats.r *3  (3= 3km spacing)
+* define wrf_control for the location of the pressure-/z-level output from the NCL scripts.
+* t_slice = the time-snapshot you wish to plot
+* num_levs = the number of pressure-/z-levels defined above
+* center = the exact center of your vortex-following domain.  Our domain in this example was 150,150 putting the center at 75,75
+* npix = the width or length of the domain (square domains work best).  Somehow this results in 107 radials, which is input in the reshape function.
+* km_rad = rad_stats.r *3  (3= 3km spacing)
 
 Plots PNG images saved as *wrf_control_zlevs_t* or *wrf_control_plevs_t* with the time-slice added.  Should be a cinch if you want to loop this over time.
