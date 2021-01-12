@@ -1,9 +1,9 @@
 # wrf_tc_azimuthal_mean
 Series of scripts to convert WRF output to pressure- and z-levels, then analyze the output for azimuthal means as a function of distance from TC center.
 
-Joseph B. Zambon
-  jbzambon@ncsu.edu
-  12 January 2021
+Joseph B. Zambon  
+  jbzambon@ncsu.edu  
+  12 January 2021  
 
 Program consists of a few NCL scripts to take your data and put on pressure- and z-levels (wrf_plevs.ncl and wrf_zlevs.ncl).
 
